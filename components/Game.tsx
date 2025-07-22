@@ -24,7 +24,7 @@ const useGameStore = create(
       history: [Array(9).fill(null)] as History,
       currentMove: 0,
     },
-    (set, get) => ({
+    (set) => ({
       setHistory: (nextHistory) => {
         set((state) => ({
           history:
