@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "next",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "semi": ["error", "never"],
+    "indent": ["error", 2],
+    "prettier/prettier": ["error", { "semi": false, "tabWidth": 2 }]
+  }
+}
